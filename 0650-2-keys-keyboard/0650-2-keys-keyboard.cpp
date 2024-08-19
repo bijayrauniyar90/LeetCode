@@ -1,8 +1,6 @@
-#include <unordered_map>
-
 class Solution {
     int n;
-    std::unordered_map<int, int> memo;
+        unordered_map<int, int> memo;
 
 public:
     int minSteps(int n) {
